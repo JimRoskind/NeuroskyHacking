@@ -1,6 +1,8 @@
 # Neurosky Hacking Star Wars Force Trainer
-Arduino code for processing data from Neurosky devices, such
-as Star Wars Force Trainer.
+Cooperative multitasking code for Arduino processing of
+high-speed serial data from Neurosky devices, such
+as Star Wars Force Trainer, using Arduino Uno.
+
 Written by Brianna Roskind and Jim Roskind
 
 Transforms the "toy" headset into an EEG display that can

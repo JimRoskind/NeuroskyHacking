@@ -60,11 +60,11 @@
 // error counts will be printed on the terminal.
 //
 // To see the data with tags (rather than a vector of 11 integers) in
-// the Serial Terminal window, hold down any two pushbottons at the
+// the Serial Terminal window, hold down any three pushbottons at the
 // same time, and the program with toggle into a text mode, listing
 // names and values.
 //
-// To see additional performance statistics, depress any 3 buttons at
+// To see additional performance statistics, depress any 2 buttons at
 // the same time, and several stats will be printed.  This information
 // is most helpful IF you significantly modify the program. The stats
 // include the duration of time between calls to ProcessBytes(), which

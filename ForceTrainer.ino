@@ -125,7 +125,7 @@ uint8_t eeg_values_loaded_for_plot = 0;
 
 //------------------------------------------------------
 uint32_t total_plotting_height = (int32_t)100 *
-                                 1000 * 1000;  // 1 billion < 2^31
+                                 1000 * 1000;
 // Scaled values, ready to plot.
 uint32_t data_snapshot[DATA_ARRAY_SIZE] = {0};
 // Largest and smallest data_values for scaling.
@@ -519,7 +519,7 @@ void ScaleDataSnapshot() {
     }
     // First scale data to just fit in usable plotting height, as though
     // this data alone will be plotted.
-    // Graph_heght is < 2^24;  Total height is just under 2^31, so usable is slightly less.
+    // Graph_height is < 2^24;  Total height is sufficiently less.
     uint32_t graph_height = one_plus_max_data_snapshot[i] - min_data_snapshot[i];
     uint32_t scale = usable_plotting_height / graph_height;
     data_snapshot[i] = scale * (data_snapshot[i] - min_data_snapshot[i]);

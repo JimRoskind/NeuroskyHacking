@@ -32,7 +32,7 @@ or a May 2015 doc:
 http://developer.neurosky.com/docs/lib/exe/fetch.php?media=mindset_communications_protocol.pdf
 
 or a Jun 2010 doc:
-http://wearcam.org/ece516/mindset_communications_protocol.pdf
+http://wearcam.org/ece516/mindset_communications_protocol.pdf ([Within-Repo Link](mindset_communications_protocol.pdf))
 
 There have been small changes and additions to the 
 protocol (in the above docs) over time, and you may 
